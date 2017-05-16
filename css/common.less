@@ -75,14 +75,20 @@ a:focus{
 @base: #21A900;
 @gray:#909090;
 @deepGray:#ECECEC;
+.bg{  background: @deepGray; }
 .b-b{border-bottom: 1px solid #c3c3c3;}
+.ball{border:1px solid #e5e5e5}
+.pbb{padding-bottom: 60px;}
+.pbb-s{margin-bottom: 20px;}
 .w75{width: 65%;margin: 0 auto;}
 .w1200{  width: 1200px;  margin: 0 auto;}
 .mb{margin-bottom: 20px;}
+.mb-s{margin-bottom: 35px;}
 .text-muted{color: @gray}
 .pb{padding-bottom: 30px;}
 .pt{padding-top: 30px;}
 .bb{border-bottom: 1px dashed #F2F2F2;}
+.pl{padding-left: 15px;}
 .biao {
   margin-bottom: 35px;
   h3{
@@ -90,9 +96,7 @@ a:focus{
     font-size: 30px;
     margin-top: 0;
   }
-  p.b-b{
-    margin-bottom: 30px;
-  }
+
   p.b-b span{
     display: inline-block;
     padding: 0 15px 15px;
@@ -101,5 +105,110 @@ a:focus{
   }
   .w75{
     line-height: 25px;
+  }
+}
+.about{
+
+  dl{
+    width: 30%;
+    overflow: hidden;
+    margin: 0;
+    cursor: pointer;
+    background: #fff;
+    &:hover{
+      box-shadow: 0px 0px 20px  #646473;
+    }
+  }
+  .dl-middle{
+    margin: 0 5%;
+  }
+  h5{
+    color: @base;
+    font-size: 18px;
+  }
+  .heng{
+    width: 30px;
+    height: 1px;
+    background: @base;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+}
+.nav-info{
+  padding: 60px 0  45px;
+  dl{
+    width: 130px;
+    margin-left: 90px;
+    text-align: center;
+    float: left;
+  }
+  dt{
+    width: 130px;
+    height: 130px;
+    line-height: 130px;
+    text-align: center;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    background: #EEEEEE;
+    cursor: pointer;
+    i{
+      font-size: 80px;
+      font-weight: normal;
+      color: @base;
+    }
+    &:hover{
+      background: @base;
+      i{
+        color: #fff;
+      }
+    }
+  }
+
+  .ying{
+    color: @gray;
+  }
+}
+.common-pagation .pagination{
+  margin: 0 0 60px;
+}
+.common-pagation .pagination a{
+  color: #808080;
+}
+.common-pagation .pagination a:hover,
+.common-pagation .pagination a:focus,
+.common-pagation .pagination a.on{
+  background: #21a900;
+  color: #fff;
+}
+.new{
+  .new-left{
+    width: 430px;
+  }
+  h6{
+    color: #404040;font-size: 16px;
+
+  }
+  .new-right{
+    width: 740px;
+    ul{
+      list-style: none;
+      padding: 0;
+    }
+    .n-left{
+      padding-top: 15px;
+      width: 82px;
+      height: 82px;
+      background: #F2F2F2;
+      text-align: center;
+      color: #909090;
+        h4{
+          margin-top: 0;
+          color: #707070;
+        }
+    }
+    .n-right{
+      width: 635px;
+      color: #808080;
+    }
   }
 }

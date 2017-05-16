@@ -56,44 +56,8 @@ a:focus {
 .owl-theme .owl-controls {
   /*margin-top: -30px;*/
 }
-.nav-info {
-  padding: 60px 0  45px;
-}
-.nav-info dl {
-  width: 130px;
-  margin-left: 90px;
-  text-align: center;
-  float: left;
-}
-.nav-info dt {
-  width: 130px;
-  height: 130px;
-  line-height: 130px;
-  text-align: center;
-  margin-bottom: 30px;
-  border-radius: 50%;
-  background: #EEEEEE;
-  cursor: pointer;
-}
-.nav-info dt i {
-  font-size: 80px;
-  font-weight: normal;
-  color: #21A900;
-}
-.nav-info dt:hover {
-  background: #21A900;
-}
-.nav-info dt:hover i {
-  color: #fff;
-}
-.nav-info .ying {
-  color: #909090;
-}
 .common {
   padding: 54px 0 72px;
-}
-.about {
-  background: #ECECEC;
 }
 .about dl {
   width: 30%;
@@ -149,26 +113,6 @@ a:focus {
   color: #fff;
   line-height: 45px;
   margin-top: 50px;
-}
-.new .new-left {
-  width: 430px;
-}
-.new .new-right {
-  width: 750px;
-}
-.new .new-right ul {
-  list-style: none;
-  padding: 0;
-}
-.new .new-right .n-left {
-  padding-top: 10px;
-  width: 82px;
-  height: 82px;
-  background: #F2F2F2;
-  text-align: center;
-}
-.new .new-right .n-right {
-  width: 610px;
 }
 .advice {
   width: 100%;

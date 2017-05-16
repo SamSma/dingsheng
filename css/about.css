@@ -1,0 +1,108 @@
+.mblz{
+    margin-bottom: 40px;
+}
+.mblz img{
+    max-width: 100%;
+}
+.mblb{
+    margin-bottom: 90px;
+}
+.about-biao{
+    font-size: 20px;
+    border-left:7px solid #ff782e;
+    padding: 8px 0 8px 12px;
+    margin-bottom: 20px;
+}
+.main-about .main-left
+{
+    width:720px;
+    line-height: 24px;
+}
+.main-about .main-left p{
+    margin-bottom: 35px;
+}
+.main-about .main-right{
+    width: 435px;
+}
+.nav-info{
+    padding: 0 0 60px !important;
+}
+.main-product dl{
+    width:260px;
+    cursor: pointer;
+    margin-right: 52px;
+    margin-bottom: 40px;
+}
+.main-product dt{
+    margin-bottom: 30px;
+}
+.main-product dt img{
+    width: 100%;
+}
+.main-product dl.last{
+    margin-right: 0;
+}
+.main-product dl:hover dt{
+    box-shadow: 0px 0px 20px #ddd;
+}
+.main-product dl:hover dd{
+    color:  #21A900;
+}
+.contact-left{
+    width: 400px;
+}
+.contact-right{
+    width: 710px;
+}
+.main-contact-right{
+    width: 310px;
+}
+.main-contact-right .ren{
+
+    display: inline-block;
+    margin-right:35px;
+    margin-bottom: 35px;
+}
+.main-contact-right .ren.last{
+    margin-right: 0;
+}
+.new h4{
+    margin-top: 0;
+}
+.new .news-btn{
+    width: 135px;
+    background: #21a900;
+    color: #fff;
+    line-height: 40px;
+    height: 40px;
+    text-align: center;
+    display: inline-block;
+}
+.new dl{
+    padding: 20px 0 15px;
+}
+.new dt.pull-left{
+    width: 80px;
+    padding-top:15px;
+    color: #909090;
+    height: 80px;
+    background: #F2F2F2;
+    text-align: center;
+}
+.new dt.pull-left h4{
+    color: #707070;
+}
+.new dd.pull-right{
+    width: 1090px;
+    color: #808080;
+}
+.w80{
+    width: 80%;
+    color: #909090;margin: 0 auto;
+}
+.main-honor .main-product dl{
+    width: 220px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+
+}
