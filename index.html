@@ -10,6 +10,11 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="http://at.alicdn.com/t/font_pmmapfje9oogvi.css">
     <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/liMarquee.css">
+    <!--[if lt IE9] >
+       <script type="text/javascript" src="js/html5.js"></script>
+       <script type="text/javascript" src="js/respond.min.js"></script>
+       <![endif]-->
 </head>
 <body>
 <!--tou-->
@@ -209,7 +214,7 @@
             <p class="w75">
                 企业具有创新意识，不断开发新产品，经过近多年的努力，已形成聚乙烯发泡系列产品，以及二次加工成型的系列产品，产品结构合理，应用广泛专业和和产品质量获得业界的认可            </p>
         </div>
-        <div id="owl-lun" class="owl-carousel owl-img">
+        <div id="owl-lun" class="owl-img ">
             <a class="item" href="javascript:;">
                 <img src="images/b1.png" alt="">
                 <p>
@@ -241,26 +246,15 @@
                 </p>
             </a>
             <a class="item" href="javascript:;">
-                <img src="images/b2.png" alt="">
-                <p>
-                    鼎诺瑜伽垫
-                </p>
-            </a>
-            <a class="item" href="javascript:;">
                 <img src="images/b1.png" alt="">
                 <p>
                     鼎诺瑜伽垫
                 </p>
             </a>
-            <a class="item" href="javascript:;">
-                <img src="images/b2.png" alt="">
-                <p>
-                    鼎诺瑜伽垫
-                </p>
-            </a>
+
         </div>
         <div class="text-center ">
-            <a class="prodect-btn" href="javascript:;">查看更多</a>
+            <a class="prodect-btn" href="./product.html">查看更多</a>
         </div>
 
     </div>
@@ -445,6 +439,7 @@
 <script src="js/jquery.min.js"></script>
 <script src="js/owl.carousel.min.js"></script>
 <script src="js/wow.min.js"> </script>
+<script src="js/jquery.liMarquee.js"></script>
 <script>
     //页面效果
     if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))){
@@ -464,12 +459,9 @@
         stopOnHover:true,
         pagination:false,
     });
-    $("#owl-lun").owlCarousel({
-        items:6,
-        autoPlay: true,
-        stopOnHover:true,
-        pagination:false,
-    })
+    $("#owl-lun").liMarquee({
+
+    });
    /* var x = $(window).height();
     var t = $("#advice").offset().top-x/2;
 
